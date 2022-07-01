@@ -20,7 +20,7 @@ function selectTradeType(evt) {
 }
 function selectFreGroup(evt) {
     const freGroupEl = evt.currentTarget 
-    const activeEl = evt.querySelector('.fre-item.active')
+    const activeEl = freGroupEl.querySelector('.fre-item.active')
     if(activeEl) {
         activeEl.classList.remove('active')
     }
@@ -48,7 +48,7 @@ window.onload = function() {
     })
     const freGroup = document.querySelector('.fre-group')
     freGroup.addEventListener('click',(evt1) => {
-
+        selectFreGroup(evt1);
     })
 }
 // render(<Hello/>,document.getElementById('hello'))
