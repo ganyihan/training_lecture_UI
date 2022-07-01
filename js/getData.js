@@ -1,5 +1,6 @@
 import getdata from "./fetch.js";
 
+//专门一个js用于封装api
 //发送请求，拉取数据
 const stockdata = {
   getData: () => {
