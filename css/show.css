@@ -23,6 +23,10 @@ body{
     background-color: #E9EEF3;
     border-radius: 4px;;
 }
+.btn-trade-nlp {
+    display: none;
+    height: 40px;
+}
 .btn-trade{
     width: 140px;
     padding: 5px 18px;
@@ -51,8 +55,20 @@ body{
     color: #09E2EA;
 }
 .trade-input-title-nlp {
-    font-size: 20px;
-    color: #09E2EA;
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 160px;
+    height: 16px;
+}
+.btn-nlp {
+    background-color: rgb(0, 95, 241);
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #FFFFFF;
+    height: 32px;
+    width: 80px;
+    font-size: 12px;
+    border-radius: 4px;
 }
 .trade-input{
     box-sizing: border-box;
@@ -67,6 +83,7 @@ body{
     display: flex;
 }
 .trade-btn{
+    box-sizing: border-box;
     width: 80px;
     height: 32px;
     color: black;
