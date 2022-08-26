@@ -1,6 +1,5 @@
 import React from 'react';
-import '../../css/chart.css';
-import HighCharts from './HighCharts';
+import HighCharts from '../component/HighCharts';
 
 export default function Chart() {
   return (

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../../css/demo.css";
 import FreItm from "./fre-item";
 const ITEMS = [
   { value: "1D", label: "1D", active: true },
@@ -16,10 +15,7 @@ export default function FreGroup(props) {
   const { selectFreItm } = props;
   const [list, setList] = useState(ITEMS);
   function clickHandler(evt) {
-   
     const target = evt.target;
-    console.log(evt);
-    console.log(target);
     if (target.classList.contains("fre-group")) return;
     const selectVal = target.dataset.value;
     ITEMS.forEach((item) => {
@@ -35,7 +31,7 @@ export default function FreGroup(props) {
   }
 
   return (
-    <div class="fre-group" onClick={clickHandler}>
+    <div className="fre-group" onClick={clickHandler}>
       {list.map((item) => (
         <FreItm key={item.value} {...item}></FreItm>
       ))}

@@ -3,7 +3,7 @@ import fetcher from "./fetch.js";
 const api = {
   getTable1Data: () => {
     return fetcher({
-      url: "/assets/table1.json",
+      url: "/data/table1.json",
       method: "GET",
       params: {},
     });

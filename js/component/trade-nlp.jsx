@@ -1,13 +1,12 @@
 import React from "react";
-import '../../css/demo.css'
 export default function TradeNlp() {
-    return  <div class="trade-nlp">
-                <div class="trade-input-item">
-                    <div class="trade-input-title">NLP Trade</div>
-                    <input class="trade-input nlp" placeholder="text input"/>
+    return  <div className="trade-nlp">
+                <div className="trade-input-item">
+                    <div className="trade-input-title">NLP Trade</div>
+                    <input className="trade-input nlp" placeholder="text input"/>
                 </div>
-                <div class="trade-submit-btns">
-                    <button class="trade-btn trade-go">
+                <div className="trade-submit-btns">
+                    <button className="trade-btn trade-go">
                         Go
                     </button>
                 </div>

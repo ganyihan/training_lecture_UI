@@ -1,8 +1,8 @@
 import React from "react";
-import '../../css/demo.css'
 export default function DataTable() {
-    return  <div class="data-table">
+    return  <div className="data-table">
     <table>
+      <thead>
         <tr>
             <th>Date</th>
             <th>Client Name</th>
@@ -17,6 +17,8 @@ export default function DataTable() {
             <th>Salesperson</th>
             <th>HT/PT</th>
         </tr>
+      </thead>
+      <tbody>
           <tr>
             <td>Date</td>
             <td>Client Name</td>
@@ -25,7 +27,7 @@ export default function DataTable() {
             <td>RIC</td>
             <td>Size</td>
             <td>11020.23</td>
-            <td>Notional USD</td>
+            <td>11020.23</td>
             <td>Currency</td>
             <td>Issuer Sector</td>
             <td>Salesperson</td>
@@ -73,6 +75,7 @@ export default function DataTable() {
             <td>Salesperson</td>
             <td>PT</td>
           </tr>
+      </tbody>
     </table>
 </div>
 }

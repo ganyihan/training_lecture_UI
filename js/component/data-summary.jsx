@@ -1,40 +1,39 @@
 import React from "react";
-import '../../css/demo.css'
 export default function DataSummary() {
-    return   <div class="data-summary">
-    <div class="summary-items">
+    return   <div className="data-summary">
+    <div className="summary-items">
         <span>
-            <label class="total-buy">
+            <label className="total-buy">
                 Total Buy: 1,300.26
             </label>
         </span>
         <span>
-            <label class="total-sell">
+            <label className="total-sell">
                 Total Sell: 1,300.26
             </label>
         </span>
         <span>
-            <label class="net-quantity">
+            <label className="net-quantity">
                 Net Quantity: 1,300.26
             </label>
         </span>
         <span>
-            <label class="total-buy">
+            <label className="total-buy">
                 Total Buy Notional: 1,300.26
             </label>
         </span>
         <span>
-            <label class="total-sell">
+            <label className="total-sell">
                 Total Sell Notional: 1,300.26
             </label>
         </span>
         <span>
-            <label class="net-quantity">
+            <label className="net-quantity">
                 Net Notional: 1,300.26
             </label>
         </span>
     </div>
-    <span class="records">
+    <span className="records">
         Records: 4
     </span>
 </div>  

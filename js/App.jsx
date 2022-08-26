@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/demo.css'
 import TradeTypeDisplay from './container/trade-type-container';
 import DataDisplay from './container/data-container';
 import FreGroupDisplay from './container/fre-group-container';

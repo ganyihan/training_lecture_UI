@@ -1,5 +1,4 @@
 import React from "react";
-import '../../css/demo.css'
 export default function TradeType(props) {
     function clickHandler(evt) {
         const dom = evt.target.dataset.value;
@@ -20,8 +19,8 @@ export default function TradeType(props) {
         props.chose(target.dataset.value);
     }
 
-    return <div class="trade-type" onClick={clickHandler}>
-               <div class="trade-type-item active" data-value="traditional">Traditional Trade</div>
-                <div class="trade-type-item" data-value="nlp">NLP Trade</div>
+    return <div className="trade-type" onClick={clickHandler}>
+               <div className="trade-type-item active" data-value="traditional">Traditional Trade</div>
+                <div className="trade-type-item" data-value="nlp">NLP Trade</div>
             </div>
 }
