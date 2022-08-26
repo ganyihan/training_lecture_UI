@@ -1,0 +1,176 @@
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #131a22;
+
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #131a22;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #131a22;
+}
+
+body {
+  background-color: #131a22;
+  color: #dbdcdd;
+}
+
+input {
+  border: 1px solid #3f5972;
+  border-radius: 3px;
+  background-color: #131a22;
+  width: 120px;
+  height: 20px;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+.block {
+  width: 140px;
+  height: 50px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.select {
+  width: 120px;
+  background-color: #131a22;
+  color: aliceblue;
+  border: 1px solid #3f5972;
+}
+
+.btn1 {
+  color: black;
+  background-color: rgb(22,235,22);
+  width: 60px;
+  border-radius: 5px;
+}
+
+.btn2 {
+  color: black;
+  background-color: #ffcd00;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.tall {
+  width: 95%;
+  margin-left: 35px;
+  background-color: #212f3d;
+  font-size: 12px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+.t {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.head {
+  background-color: rgb(59, 84, 108, 0.6);
+}
+
+table,
+table tr th,
+table tr td {
+  border: 1px solid #3f5972;
+  height: 30px;
+  padding-left: 5px;
+}
+
+table tr th,
+table tr td {
+  width: 100px;
+}
+
+
+
+.pall {
+  font-size: 12px;
+  color: rgb(94, 129, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 310px;
+  height: 30px;
+  background-color: #212f3d;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.p1 {
+  padding-top: 7px;
+  width: 140px;
+  height: 25px;
+  border-radius: 5px;
+  padding-left: 12px;
+}
+
+.p1:hover{
+  cursor: pointer;
+}
+
+.p1::after {
+  content: "|";
+  padding-left: 10px;
+}
+
+.p_active {
+  background-color: #dbdcdd;
+  color: #131a22;
+  width: 138px;
+  height: 25px;
+}
+
+.p_active::after {
+  content: "|";
+  padding-left: 10px;
+  color: #dbdcdd;
+}
+
+.p2 {
+  padding-top: 7px;
+  width: 140px;
+  height: 25px;
+  border-radius: 5px;
+  padding-left: 12px;
+}
+
+.p2:hover{
+  cursor: pointer;
+}
+
+.p2::after {
+  content: "";
+  padding-left: 10px;
+}
+
+.icon {
+  margin-right: 2px;
+}
+
+.chart {
+  position: relative;
+  top: 30px;
+  margin: auto;
+  width: 95%;
+  height: 400px;
+  padding-bottom: 50px;
+}
+
+.line{
+  width:95%;
+  size:"1"; 
+  color:"#3f5972"
+}
