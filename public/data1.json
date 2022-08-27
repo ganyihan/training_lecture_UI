@@ -1,0 +1,92 @@
+{
+    "day1": [
+        {
+            "date": "Date",
+            "clientName": "Client Name",
+            "ticker": "Ticker",
+            "ric": "RIC",
+            "price": "Price",
+            "notionalUSD": "1,300.78",
+            "currency": "Currency",
+            "issuerSector": "Issuer Sector",
+            "salesperson": "Salesperson",
+            "type": "HT",
+            "clientSide": "Buy",
+            "size": "12"
+        }
+    ],
+    "day2": [
+        {
+            "date": "Dat",
+            "clientName": "Client Name",
+            "ticker": "Ticker",
+            "ric": "RIC",
+            "price": "Price",
+            "notionalUSD": "1,300.78",
+            "currency": "Currency",
+            "issuerSector": "Issuer Sector",
+            "salesperson": "Salesperson",
+            "type": "HT",
+            "clientSide": "Buy",
+            "size": "12"
+        },
+        {
+            "date": "Date",
+            "clientName": "Client Name",
+            "ticker": "Ticker",
+            "ric": "RIC",
+            "price": "Price",
+            "notionalUSD": "1,300.78",
+            "currency": "Currency",
+            "issuerSector": "Issuer Sector",
+            "salesperson": "Salesperson",
+            "type": "HT",
+            "clientSide": "Buy",
+            "size": "12"
+        }
+    ],
+    "day3": [
+        {
+            "date": "Date",
+            "clientName": "Client Name",
+            "ticker": "Ticker",
+            "ric": "RIC",
+            "price": "Price",
+            "notionalUSD": "1,300.78",
+            "currency": "Currency",
+            "issuerSector": "Issuer Sector",
+            "salesperson": "Salesperson",
+            "type": "HT",
+            "clientSide": "Sell",
+            "size": "12"
+        },
+        {
+            "date": "Date",
+            "clientName": "Client Name",
+            "ticker": "Ticker",
+            "ric": "RIC",
+            "price": "Price",
+            "notionalUSD": "1,300.78",
+            "currency": "Currency",
+            "issuerSector": "Issuer Sector",
+            "salesperson": "Salesperson",
+            "type": "HT",
+            "clientSide": "Buy",
+            "size": "12"
+        },
+        {
+            "date": "Date",
+            "clientName": "Client Name",
+            "ticker": "Ticker",
+            "ric": "RIC",
+            "price": "Price",
+            "notionalUSD": "1,300.78",
+            "currency": "Currency",
+            "issuerSector": "Issuer Sector",
+            "salesperson": "Salesperson",
+            "type": "HT",
+            "clientSide": "Buy",
+            "size": "12"
+        }
+    ]
+}
