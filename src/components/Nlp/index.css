@@ -1,11 +1,4 @@
-.active{
-    display: block;
-    margin-left: 35px;
-    margin-top: 10px
+.btn1:hover {
+    cursor: pointer;
 }
 
-.unactive{
-    display: none;
-    margin-left: 35px;
-    margin-top: 10px
-}

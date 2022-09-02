@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import './index.css'
-export default class Header extends Component {
+import {connect} from 'react-redux'
+class Header extends Component {
+    state={
+        tradition:true,
+    }
+
     render() {
         return (
             <div className="one">
@@ -16,16 +21,56 @@ export default class Header extends Component {
         )
     }
     choose_trade = () => {
+        console.log("Header",this.props);
+        
+        let {tradition} = this.state.tradition;
+        this.props.sendAction()
+        if(!tradition){
+            
+            this.setState({
+                tradition: !tradition
+            });
+
+        }
+        //获得state 根据state设置样式
         this.block1.classList.add('active');
         this.block2.classList.remove('active');
-        document.getElementById('nlp-type').style.display = 'none';
-        document.getElementById('trade-type').style.display = 'block';
-    }
+        // document.getElementById('nlp-type').style.display = 'none';
+        // document.getElementById('trade-type').style.display = 'block';
+    };
     choose_nlp = () => {
+        console.log("Header",this.props);
+        
+        let {tradition} = this.state.tradition;
+        this.props.sendAction2()
+        if(tradition){
+            
+            this.setState({
+                tradition: !tradition
+            });
+
+        }
+    
+        
         this.block2.classList.add('active');
         this.block1.classList.remove('active');
-        document.getElementById('trade-type').style.display = 'none';
-        document.getElementById('nlp-type').style.display = 'block';
+        // document.getElementById('trade-type').style.display = 'none';
+        // document.getElementById('nlp-type').style.display = 'block';
     }
 
 }
+const mapDispatchToProps = (dispatch) => {
+    return {
+        sendAction: () => {
+            dispatch({
+                type: 'trade_action'
+            })
+        },
+        sendAction2: () => {
+            dispatch({
+                type: 'nlp_action'
+            })
+        }
+    }
+};
+export default connect(null,mapDispatchToProps)(Header);

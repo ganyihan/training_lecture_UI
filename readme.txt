@@ -1,0 +1,3 @@
+目前tradition与nlp样式没改，就是点击高亮，我不知道怎么改，你加一下吧。
+状态都获得了，tradition为true时是trade，为false时是nlp
+只要根据tradition状态设置样式就好了

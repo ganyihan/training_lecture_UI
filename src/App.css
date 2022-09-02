@@ -1,3 +1,5 @@
+@import 'antd/dist/antd.min.css';
+
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -34,12 +36,7 @@ input {
   font-size: 12px;
 }
 
-.block {
-  width: 140px;
-  height: 50px;
-  display: inline-block;
-  font-size: 12px;
-}
+
 
 .icon {
   margin-right: 2px;
@@ -54,8 +51,8 @@ input {
   padding-bottom: 50px;
 }
 
-hr{
+hr {
   background-color: #3f5972;
   width: 95%;
-  border-color:  #131a22;
+  border-color: #131a22;
 }
